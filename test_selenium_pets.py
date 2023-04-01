@@ -18,12 +18,12 @@ def test_pets(selenium):
 
     field_email = selenium.find_element(By.ID, "email")
     field_email.clear()
-    field_email.send_keys("ovm459@gmail.com")
+    field_email.send_keys("your email")
 
     #add password
     field_pass = selenium.find_element(By.ID, "pass")
     field_pass.clear()
-    field_pass.send_keys("ZUt5PqCXtSwv696")
+    field_pass.send_keys("your password")
 
     #click submit button
     btn_submit = selenium.find_element(By.XPATH, "//button[@type='submit']")
